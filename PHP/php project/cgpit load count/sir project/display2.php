@@ -17,20 +17,20 @@ if($total!=0)
 ?>
 <!-- start CE table-->
 <table border=1px cellspacing=0px width=1300px>
-<tr>
-<th>ID</th>
-<th>NAME</th>
-<th>VALUE</th>
-<th>Semester</th>
-<th>Class</th>
-<th>Branch</th>
-<th>Lecture</th>
-<th>Tutorial</th>
-<th>Practical</th>
-<th>Batch</th>
-<th>Load</th>
-<th colspan=2>Operation</th>
-</tr>
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>VALUE</th>
+        <th>Semester</th>
+        <th>Class</th>
+        <th>Branch</th>
+        <th>Lecture</th>
+        <th>Tutorial</th>
+        <th>Practical</th>
+        <th>Batch</th>
+        <th>Load</th>
+        <th colspan=2>Operation</th>
+    </tr>
 <?php
     $idd=1;
     while($result=mysqli_fetch_assoc($data))
@@ -79,20 +79,20 @@ if($total!=0)
 ?>
 <!-- start CE table-->
 <table border=1px cellspacing=0px width=1300px>
-<tr>
-<th>ID</th>
-<th>NAME</th>
-<th>VALUE</th>
-<th>Semester</th>
-<th>Class</th>
-<th>Branch</th>
-<th>Lecture</th>
-<th>Tutorial</th>
-<th>Practical</th>
-<th>Batch</th>
-<th>Load</th>
-<th colspan=2>Operation</th>
-</tr>
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>VALUE</th>
+        <th>Semester</th>
+        <th>Class</th>
+        <th>Branch</th>
+        <th>Lecture</th>
+        <th>Tutorial</th>
+        <th>Practical</th>
+        <th>Batch</th>
+        <th>Load</th>
+        <th colspan=2>Operation</th>
+    </tr>
 <?php
     $idd=1;
     while($result=mysqli_fetch_assoc($data))

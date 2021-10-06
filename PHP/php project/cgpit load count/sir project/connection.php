@@ -5,11 +5,9 @@ $password ="";
 $dbname="tempdb2";
 
 $conn =mysqli_connect($servername,$username,$password,$dbname);
-if($conn)
-{
+if($conn){
 }
-else
-{
+else{
     die("connecion failed because ".mysqli_connect_error());
 }
 ?>
